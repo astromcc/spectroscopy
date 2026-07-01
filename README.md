@@ -2,7 +2,7 @@
 
 This repository contains Python scripts for analyzing stellar spectra recorded by the NRES instruments installed on Las Cumbres Observatory 1-meter telescopes.
 
-The code was developed during my 2025 Summer Project, funded by the Maricopa Community Colleges. As a continuation of this project, example notebooks will be developed and a set of webpages will be written to introduce concepts of stellar spectra to interested students and faculty. The scripts are heavily commented.
+The code was developed during my 2025 Summer Project, funded by the Maricopa Community Colleges. As a continuation of this project, example notebooks will be developed and a set of webpages will be written to introduce concepts of stellar spectra to those interested. The scripts are heavily commented.
 
 The script "nres_data.py" loads NRES FITS files into memory.
 
