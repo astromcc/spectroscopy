@@ -1,7 +1,8 @@
-'''Performs several operations on stellar spectra and template spectra.
+'''
+Utility functions for processing stellar spectra and template spectra
 
-Assumes NRES spectrum as class NRESObservation in nres_load.py
-and PHOENIX spectrum as class PhoenixTemplate in phoenix_load.py
+Assumes NRES spectrum as instance of class NRESObservation, defined in nres_data.py
+Assumes PHOENIX spectrum as instance of class PhoenixTemplate, defined in phoenix_data.py
 
 Processing mimics steps in rv.py module in banzai-nres
 https://github.com/LCOGT/banzai-nres/tree/main/banzai_nres
