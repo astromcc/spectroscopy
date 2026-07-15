@@ -44,21 +44,21 @@ Normalized orders are preferred for cross-correlation and other tasks.
 
 ## Methods:
 
-* identify_fiber() -- Read header to locate fiber for sky object.
+* identify_fiber() -- Read header to locate fiber for sky object.<br>
     returns integer 0 or 2
 
-* read_fluxfile() -- Read NRES spectrum file.
+* read_fluxfile() -- Read NRES spectrum file.<br>
     returns primary_header, spectrum_header, orders,
             wavelengths, flux_mask, fluxes, flux_uncertainty
 
-* get_earthlocation() -- Identify telescope site, create EarthLocation.
+* get_earthlocation() -- Identify telescope site, create EarthLocation.<br>
     returns location
 
-* get_observingparams() -- Calculate exposure midpoint, assign SkyCoord
+* get_observingparams() -- Calculate exposure midpoint, assign SkyCoord<br>
     returns obstime, skycoords
 
-* get_barycorrections() -- Calculate light-travel-time, bary RV correction
+* get_barycorrections() -- Calculate light-travel-time, bary RV correction<br>
     returns bjd_tdb, rvbarycorr
 
-* join_orders(first_order, last_order) -- Join echelle orders into spectrum.
+* join_orders(first_order, last_order) -- Join echelle orders into spectrum<br>
     returns joined_wave, joined_flux, joined_func
