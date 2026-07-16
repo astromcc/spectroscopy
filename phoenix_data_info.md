@@ -15,12 +15,12 @@ continuum which is determined from a rolling maximum of flux array
 
 ## Attributes:
 
-* filepath (str) -- directory path to PHOENIX files
+* filepath (str) -- directory path to PHOENIX files<br>
     (default is '/content/drive/MyDrive/astdata/PHOENIX Spectra/')
 
 * filename (str) -- name of PHOENIX flux file to be loaded
 
-* wavelengthfile (str) -- name of PHOENIX wavelength file to be loaded
+* wavelengthfile (str) -- name of PHOENIX wavelength file to be loaded<br>
     (default is 'WAVE_PHOENIX-ACES-AGSS-COND-2011.fits')
 
 * wave_header (FITS header) -- FITS header of wavelength template file
@@ -45,11 +45,11 @@ continuum which is determined from a rolling maximum of flux array
 
 ## Methods:
 
-* read_wavefile() -- Read wavelength file for PHOENIX spectrum.
+* read_wavefile() -- Read wavelength file for PHOENIX spectrum<br>
     returns wave_header, optical, wavelengths
 
-* read_fluxfile() -- Read flux file for PHOENIX spectrum.
+* read_fluxfile() -- Read flux file for PHOENIX spectrum<br>
     returns data_header, fluxes, Teff, logg, FeH
 
-* normalize_fluxes() -- Estimates continuum, then normalizes fluxes.
+* normalize_fluxes() -- Estimates continuum, then normalizes fluxes<br>
     returns continuum, norm_fluxes

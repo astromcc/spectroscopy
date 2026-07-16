@@ -1,6 +1,6 @@
 # class NRESObservation
 
-Represents a single NRES spectral observation
+Represents a single NRES spectral observation from the Las Cumbres Observatory 1-meter telescopes
 
 Methods to load and process Las Cumbres Oobservatory NRES spectrum
 
